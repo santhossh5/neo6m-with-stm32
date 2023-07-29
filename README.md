@@ -118,4 +118,4 @@ Output with nmea string given by the module:<br>
 Location with time, lattitude and longitude: <br>
 <img src="./.Assets/final_output.png"> </img>
 
-Output demonstration video can be found [here](./Assets/demonstration.mp4).
+Output demonstration video can be found [here](./.Assets/demonstration.mp4).
