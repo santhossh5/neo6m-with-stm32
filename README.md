@@ -2,10 +2,14 @@
 **Boards used:** B-L475E-IOT01A1<br>
 **IDE:** STM32cubeIDE
 ### Pin configuration:
-1. Connect 5v pin frm stm32 to vcc in neo6m.
+1. Connect 3v3 pin frm stm32 to vcc in neo6m.
 2. Connect GND pin from stm32 to GND in neo6m.
 3. Connect D0 pin from stm32 to TX pin in neo6m.
 4. Connect D1 pin from stm32 to RX pin in neo6m.
+5. Wait till the gps module get signals.<br> It will be indicated by red led blinking on gps module
+
+
+
 
 ### Instructions to follow in STM32cubeIDE:
 1. I'm using UART4 to communicate with neo6m and USART1 to communicate with my laptop.
@@ -102,3 +106,16 @@ void Format_data(float Time,float Lat,float Long)
 }
 /* USER CODE END 4 */
 ```
+#### Use a Serial Terminal to view the output.
+I use Tera Term to view my output.
+- Run the code in STM32cubeIDE and open the serial terminal with 9600 baud rate and correct port.<br>
+
+The output will be dk displayed in terminal.
+
+Output with nmea string given by the module:<br>
+<img src="./Assets/output_with_nmea.png"></img>
+<br><br>
+Location with time, lattitude and longitude: <br>
+<img src="./Assets/final_output.png"> </img>
+
+Output demonstration video can be found [here](./Assets/demonstration.mp4).
