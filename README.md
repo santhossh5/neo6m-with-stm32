@@ -113,9 +113,9 @@ I use Tera Term to view my output.
 The output will be dk displayed in terminal.
 
 Output with nmea string given by the module:<br>
-<img src="./Assets/output_with_nmea.png"></img>
+<img src="./.Assets/output_with_nmea.png"></img>
 <br><br>
 Location with time, lattitude and longitude: <br>
-<img src="./Assets/final_output.png"> </img>
+<img src="./.Assets/final_output.png"> </img>
 
 Output demonstration video can be found [here](./Assets/demonstration.mp4).
